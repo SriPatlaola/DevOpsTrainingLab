@@ -1,3 +1,4 @@
+
 on: workflow_dispatch 
 name: AzureLoginGitHub
 jobs:
@@ -8,8 +9,7 @@ jobs:
  uses: azure/login@v1
  with: 
  creds: '${{ secrets.AZURE_CREDENTIALS }}'
- 
- 
+
  - name: Running a sample AZ CLI command to view the account
  uses: azure/CLI@v1
  with:

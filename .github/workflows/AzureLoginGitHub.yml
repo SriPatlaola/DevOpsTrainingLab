@@ -16,4 +16,4 @@ jobs:
       azcliversion: latest 
       inlineScript: |
        echo "Show Account information"
-       az account sho
+       az account show
